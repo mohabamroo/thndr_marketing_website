@@ -23,6 +23,17 @@
   color: #61dafb;
 }
 
+.masthead {
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.3) 0,
+      rgba(22, 22, 22, 0.7) 75%,
+      #161616 100%
+    ),
+    url('/img/main-header.jpg');
+  background-size: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
